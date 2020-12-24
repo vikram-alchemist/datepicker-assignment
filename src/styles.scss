@@ -1,1 +1,76 @@
-/* You can add global styles to this file, and also import other style files */
+html, body { height: 100%; }
+body { background:#e5e5e5;margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+.form-control{
+    border: 0px solid #ced4da;
+}
+.bg-warning{
+    color: #0985c7 !important;
+}
+.theme-green .bs-datepicker-body table td.ng-star-inserted span.selected, .theme-green .bs-datepicker-body table td.selected span, .theme-green .bs-datepicker-body table td span[class*="select-"]:after, .theme-green .bs-datepicker-body table td[class*="select-"] span:after {
+    background-color: #0985c7 !important;
+}
+.bs-datepicker-body table.days td.active:not(.select-start):before, .bs-datepicker-body table.days td.in-range:not(.select-start):before, .bs-datepicker-body table.days span.active:not(.select-start):before, .bs-datepicker-body table.days span.in-range:not(.select-start):before {
+    background: #d3e5f2 !important;
+}
+.theme-green .bs-datepicker-predefined-btns button.selected {
+    background-color: #0985c7;
+    color: #fff;
+}
+.bs-datepicker-predefined-btns button:hover {
+    background-color: #ededed;
+}
+.bs-datepicker-predefined-btns button {
+    border-radius: 0;
+    background-color: #fff;
+    color: #000000;
+    margin-bottom: 0px;
+    font-weight: 100;
+    font-size: 14px;
+    height: 40px;
+    padding: 9px 18px;
+}
+.bs-datepicker-custom-range {
+    padding: 15px;
+    background: #fff;
+}
+.bs-datepicker-body table th {
+    font-size: 13px;
+    color: #000000cc;
+    padding: 5px;
+}
+.bs-datepicker-body table td {
+    color: #000000cc;
+}
+.bs-datepicker{
+    margin-top: 10px;
+}
+.theme-green .bs-datepicker-body table td.week span {
+    color: #0985c7;
+}
+.bs-datepicker-body table td:before, .bs-datepicker-body table td span:before {
+    top: 2px;
+    height: 93%;
+}
+.bs-datepicker-head button{
+    color: #000;
+}
+.theme-green .bs-datepicker-head {
+    background-color: #ffffff;
+}
+.theme-green .bs-datepicker-head span{
+    text-transform: uppercase
+}
+.bs-datepicker-body{
+    border:0
+}
+
+.bs-datepicker-body table td
+{
+    padding:3px;
+}
+
+.bs-datepicker-body table.days span {
+    width: 34px;
+    height: 34px;
+    line-height: 34px;
+}

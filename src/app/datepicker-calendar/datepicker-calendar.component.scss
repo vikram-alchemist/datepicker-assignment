@@ -1,0 +1,21 @@
+.form-group-custom
+{
+padding:15px;
+}
+.custom-date
+{
+    position:relative;
+}
+.custom-date:after
+{
+    content:'';
+    position:absolute;
+    height:20px;
+    width:20px;
+    background-image:url('../../assets/images/calendar-ico.png');
+    right: 2%;
+    top: 28%;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
